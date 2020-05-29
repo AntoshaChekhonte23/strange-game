@@ -1,0 +1,1610 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Фолк</title>
+	<!-- игра с тестом -->
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" type="text/css" href="sl1.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap" rel="stylesheet">
+	<!-- бутсрап -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- подводка к css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- ссылка на шрифт -->
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+	<!-- ссылка на шрифт -->
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap" rel="stylesheet">
+	<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+	
+	.textPPPP {
+		font-family: 'Yeseva One', cursive;
+		color:#9e7533;
+		font-size: 21px;
+		color:black;
+		text-align:center;
+	}
+	
+	.txtttt {
+		font-family: 'Ruslan Display', cursive;
+		color:black;
+		font-size: 30px;
+	}				
+	</style>
+</head>
+<body style="background: url(Loc1/mountain2.jpg) no-repeat center top fixed;background-size: cover;">
+	<div class="intro">
+		<h1 style="margin-top:400px;margin-left:350px" class="txt h1">Школьная жизнь деревенского мальчишки</h1>
+		<button class="btn-lg btn-dark a1 mt butt1 text">Играть</button>
+	</div>
+	<div class="location1" style="display:none">
+		<div class="fundament">
+			<div class="main" style="background-image:url(Loc1/school.jpg);">
+				<div class="door"></div>
+				<div class="student_1">
+					<img style="height:250px;width:100px;" src="Loc1/student.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="location2" style="display:none">
+		<div class="fundament1" style="background-image:url(Loc2/corridor.jpg);background-size:100% 100%">
+			<div class="loc3_door"></div>
+			<div style="display:none" class="talkTeacher">
+				<img style="height:200px;width:300px;" src="Loc2/talk.png">
+				<h5 class="loc2_talkTea text">И тебе привет, шалунишка Ингмар! Проходи на урок, тебя там все ждут. Приоткрой мне дверцу и мы пойдем.</h5>
+			</div>
+			<div style="display:none" class="talkStudent">
+				<img style="height:200px;width:300px;" src="Loc2/talk.png">
+				<h5 class="loc2_talkStu text">Ух,ну и колотун снаружи! О,с добрым днем вас,мистер Бьёрк.</h5>
+			</div>
+			<div class="teacher_1">
+				<img style="height:520px;width:180px;" src="Loc1/teacher.png">
+			</div>
+			<div class="student_2">
+				<img style="height:500px;width:150px;" src="Loc1/student.png">
+			</div>
+		</div>
+	</div>
+	<div class="location3" style="display:none">
+		<div class="fundament2" style="background-image:url(Loc2/main_room.jpg);background-size:100% 100%">
+			<div class="student_3">
+				<img style="height:460px;width:130px;" src="Loc1/student.png">
+			</div>
+			<div class="teacher_3" style="display:none">
+				<img style="height:470px;width:180px;" src="Loc1/teacher.png">
+			</div>
+			<div style="display:none" class="talkTeacher3">
+				<img style="height:200px;width:300px;" src="Loc2/talk.png">
+				<h5 class="loc3_talkTea text">Так как сегодня воскресный день, то я разрешаю вам немного повеселиться. Позабавьтесь на славу.</h5>
+			</div>
+			<div style="display:none" class="talkStudent3">
+				<img style="height:200px;width:300px;" src="Loc2/talk.png">
+				<h5 class="loc3_talkStu text">Ух ты, большое спасибо Вам, мистер Бьёрк. Я то уж повеселюсь как следует.</h5>
+			</div>
+			<div class="loc3_door1"></div>
+			<div class="loc3_doorRight"></div>	
+			<div class="loc3_doorPryamo"></div>	
+		</div>	
+	</div>
+	<div class="location4" style="display:none">
+		<div class="fundament4" style="background-image:url(Loc2/classroom.jpg);background-size:100% 100%">
+			<div class="pupils">
+				<img src="Loc3/pupil1.png" style="width:100px;height:200px;position:absolute;margin-top: 35%;margin-left: 27%">
+				
+				<img src="Loc3/pupil2.png" style="width:130px;height:300px;position:absolute;margin-left:55%;margin-top: 45%;">
+				<img src="Loc1/student.png" style="width:120px;height:300px;position:absolute;margin-left:29%;margin-top: 45%;">
+			</div>
+			<div class="tables">
+				<img src="Loc3/stol.png" style="width:190px;position:absolute;margin-top: 41%;margin-left: 24%">
+				
+				<img src="Loc3/stol.png" style="width:250px;position:absolute;margin-top: 55%;margin-left: 52%">
+				<img class="student_4" src="Loc3/stol.png" style="width:250px;position:absolute;margin-top: 55%;margin-left: 24%">
+			</div>
+			<div style="display:none" class="talkStudent4">
+				<img style="height:200px;width:300px;" src="Loc2/talk.png">
+				<h5 class="loc4_talkStu text">Сыграю-ка я в настолку, пока никто меня не увидел .</h5>
+			</div>
+			<div style="display:none" class="talk1Student4">
+				<img style="height:200px;width:300px;" src="Loc2/talk.png">
+				<h5 class="loc4_talkStu1 text">Привет, Ингмар! Отличная идея!</h5>
+			</div>
+			<div style="display:none" class="talk4Student4">
+				<img style="height:200px;width:300px;" src="Loc2/talk.png">
+				<h5 class="loc4_talkStu4 text">А, что? Прятки? Ну что ж, давайте.</h5>
+			</div>
+		</div>
+		<div class="fundament5" style="display:none;background-image:url(Loc2/bg.jpg);background-size:100% 100%">
+			<div style="margin-left:-20px;margin-top:50px;" class="content ">
+				<h3 class="text1" style="margin-left: 10px;color:white;font-size:25px;">Score: <span class="scoreee text1">150</span></h3>
+				<img src="Loc2/dice.png" class="bt" style="width: 100px; margin-left: 20px">		
+				<div class="boxs firsBox" style="margin-left: 20px">
+					<h4 class="text1">finish</h4>
+				</div>
+				<div class="boxs text1" style="margin-left: 130px;">1</div>
+				<div class="boxs text1" style="margin-left: 240px">2</div>
+				<div class="boxs text1" style="margin-left: 350px; background-image:url(Loc2/fire.jpg);background-size:100% 100%;">3</div>
+						
+				<div class="boxs text1" style="margin-left: 460px">4</div> 
+				<div class="boxs text1" style="margin-left: 570px">5</div>
+				<div class="boxs text1" style="margin-left: 680px;  background-image:url(Loc2/fire.jpg);background-size:100% 100%;">6</div>
+				<div class="boxs text1" style="margin-left: 790px">7</div>
+
+				<div class="boxs text1" style="margin-left: 900px">8</div>
+				<div class="boxs text1" style="margin-left: 1010px;background-image:url(Loc2/fire.jpg);background-size:100% 100%;" >9</div>
+				<div class="boxs text1" style="margin-left: 1120px">10</div>
+				<div class="boxs text1" style="margin-left: 1230px">11</div>
+
+				<div class="boxs text1" style="margin-left: 1340px;background-image:url(Loc2/fire.jpg);background-size:100% 100%;">12 
+					<p class="text1">иди назад на -5 клеток</p>
+				</div>
+				<div class="boxs text1" style="margin-left: 1340px; margin-top: 110px">13</div>
+				<div class="boxs text1" style="margin-left: 1340px; margin-top: 220px">14</div>	
+				<div class="boxs text1" style="margin-left: 1340px; margin-top: 330px">15</div>		
+
+				<div class="boxs text1" style="margin-left: 1340px; margin-top: 440px">16</div>
+				<div class="boxs text1" style="margin-left: 1230px; margin-top: 440px">17</div>
+				<div class="boxs text1" style="margin-left: 1120px; margin-top: 440px">18</div>
+				<div class="boxs text1" style="margin-left: 1010px; margin-top: 440px">19</div>
+
+				<div class="boxs text1" style="margin-left: 900px; margin-top: 440px">20</div>
+				<div class="boxs text1" style="margin-left: 790px; margin-top: 440px">21</div>
+				<div class="boxs text1" style="margin-left: 680px; margin-top: 440px">22</div>
+				<div class="boxs text1" style="margin-left: 570px; margin-top: 440px">23</div>
+
+				<div class="boxs text1" style="margin-left: 460px; margin-top: 440px">24</div>
+				<div class="boxs text1" style="margin-left: 350px; margin-top: 440px">25</div>
+				<div class="boxs text1" style="margin-left: 240px; margin-top: 440px">26</div>
+				<div class="boxs text1" style="margin-left: 130px; margin-top: 440px">27</div>
+
+				<div class="boxs text1" style="margin-left: 20px; margin-top: 440px">28</div>
+				<div class="boxs text1" style="margin-left: 20px; margin-top: 330px">29</div>
+				<div class="boxs text1" style="margin-left: 20px; margin-top: 220px">30</div>	
+				<div class="boxs text1" style="margin-left: 20px; margin-top: 110px">31</div>		
+
+				<!--последние дивы-->
+				<div class="boxs" style="margin-left: 130px; margin-top: 110px; background-image:url(Loc2/bgmaps.jpg);background-size:100% 100%;   opacity: 0"></div>
+				<div class="boxs" style="margin-left: 240px; margin-top: 110px; background-image:url(Loc2/bgmaps.jpg);background-size:100% 100%;  opacity: 0"></div>
+				<div class="boxs" style="margin-left: 350px; margin-top: 110px; background-image:url(Loc2/bgmaps.jpg);background-size:100% 100%; opacity: 0"></div>
+				<div class="boxs" style="margin-left: 460px; margin-top: 110px; background-image:url(Loc2/bgmaps.jpg);background-size:100% 100%;  opacity: 0"></div>
+				<div class="boxs" style="margin-left: 570px; margin-top: 110px; background-image:url(Loc2/bgmaps.jpg);background-size:100% 100%;  opacity: 0"></div>
+				<div class="boxs" style="margin-left: 680px; margin-top: 110px; background-image:url(Loc2/bgmaps.jpg);background-size:100% 100%;  opacity: 0"></div>
+
+			</div>	
+		</div>
+
+		<div class="fundament6 " style="display:none;background-image:url(Loc2/bg_fon.jpg);background-size:100% 100%">
+			<div style="display:none; margin-left:130px;margin-top:70px;" class="col-7 mx-auto divv">
+				<div>
+					<h1 style="color:black" class="task text1">Найди спрятанное золото</h1>
+					<h1 style="color:black" class="task text1">Попробуй собрать 6 баллов</h1>
+					<h1 style="color:black;margin-left:10px;" class="text1">Score: <span class="score3 text1">0</span></h1>
+				</div>
+				<div class="row">
+					<div class="col-1 px-5 py-3  bg-warning text-center border">
+
+					</div>
+					<div class="col-1 px-5 py-3  bg-warning text-center border">
+						<h4 class="text1">1</h4>
+					</div>
+					<div class="col-1 px-5 py-3  bg-warning text-center border">
+						<h4 class="text1">2</h4>
+					</div>
+					<div class="col-1 px-5 py-3  bg-warning text-center border">
+						<h4 class="text1">3</h4>
+					</div>
+					<div class="col-1 px-5 py-3  bg-warning text-center border">
+						<h4 class="text1">4</h4>
+					</div>
+					<div class="col-1 px-5  py-3 bg-warning text-center border">
+						<h4 class="text1">5</h4>
+					</div>
+					<div class="col-1 px-5 py-3  bg-warning text-center border">
+						<h4 class="text1">6</h4>
+					</div>
+				</div>
+				<!--Линия А-->
+				<div class="row">
+					<div class="col-1 px-5 py-4 bg-warning text-center border">
+						<h4 class="text1">A</h4>
+					</div>
+					<div class="col-1  px-5 py-4 bg border bang">
+						
+					</div>
+					<div class="col-1  px-5 py-4 bg border coin">
+						
+					</div>
+					<div class="col-1  px-5 py-4 bg border meme">
+						
+					</div>
+					<div class="col-1  px-5 py-4 bg border treasure">
+						
+					</div>
+					<div class="col-1  px-5 py-4 bg border meme">
+						
+					</div>
+					<div class="col-1 px-5 py-4 bg border coin">
+						
+					</div>
+				</div>
+				<!--Линия B-->
+				<div class="row">
+					<div class="col-1  px-5 py-4 bg-warning text-center border">
+						<h4 class="text1">B</h4>
+					</div>
+					<div class="col-1  px-5 py-4 bg border meme">
+
+					</div>
+					<div class="col-1  px-5 py-4 bg border meme">
+					
+					</div>
+					<div class="col-1  px-5 py-4 bg border coin">
+						
+					</div>
+					<div class="col-1  px-5 py-4 bg border meme">
+						
+					</div>
+					<div class="col-1 px-5 py-4 bang bg border ">
+						
+					</div>
+					<div class="col-1  px-5 py-4 bg border treasure">
+						
+					</div>
+				</div>
+				<!--Линия C-->
+				<div class="row">
+					<div class="col-1 px-5 py-4  bg-warning text-center border">
+						<h4 class="text1">C</h4>
+					</div>
+					<div class="col-1  px-5 py-4 bg border bang">
+						
+					</div>
+					<div class="col-1 px-5 py-4  bg border treasure">
+						
+					</div>
+					<div class="col-1 px-5 py-4  bg border meme">
+						
+					</div>
+					<div class="col-1 px-5 py-4  bg border coin">
+						
+					</div>
+					<div class="col-1  px-5 py-4 bg border meme">
+						
+					</div>
+					<div class="col-1 px-5 py-4  bg border meme">
+						
+					</div>	
+				</div>
+				<!--Линия D-->
+				<div class="row">
+					<div class="col-1 px-5 py-4  bg-warning text-center border">
+						<h4 class="text1">D</h4>
+					</div>
+					<div class="col-1  px-5 py-4 bg border coin">
+						
+					</div>
+					<div class="col-1  px-5 py-4 bg border meme ">
+						
+					</div>
+					<div class="col-1  px-5 py-4 bg border treasure">
+						
+					</div>
+					<div class="col-1  px-5 py-4 bg border meme">
+						
+					</div>
+					<div class="col-1  px-5 py-4 bg border bang">
+						
+					</div>
+					<div class="col-1  px-5 py-4 bg border meme">
+						
+					</div>
+				</div>
+				<!--Линия E-->
+				<div class="row">
+					<div class="col-1 px-5 py-4  bg-warning text-center border">
+						<h4 class="text1">E</h4>
+					</div>
+					<div class="col-1 px-5 py-4  bg border treasure">
+						
+					</div>
+					<div class="col-1 px-5 py-4  bg border coin">
+						
+					</div>
+					<div class="col-1 px-5 py-4  bg border meme">
+						
+					</div>
+					<div class="col-1 px-5 py-4  bg border bang">
+						
+					</div>
+					<div class="col-1 px-5 py-4  bg border meme">
+						
+					</div>
+					<div class="col-1  px-5 py-4 bg border meme ">
+						
+					</div>
+				</div>
+				<!--Линия F-->
+				<div class="row">
+					<div class="col-1 px-5 py-4 bg-warning text-center border">
+						<h4 class="text1">F</h4>
+					</div>
+					<div class="col-1 px-5 py-4 bg border meme">
+						
+					</div>
+					<div class="col-1 px-5 py-4 bg border treasure">
+						
+					</div>
+					<div class="col-1 px-5 py-4 bg border meme">
+						
+					</div>
+					<div class="col-1 px-5 py-4 bg border coin">
+						
+					</div>
+					<div class="col-1 px-5 py-4 bg border bang">
+						
+					</div>
+					<div class="col-1 px-5 py-4 bg border meme">
+				
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="location5" style="display:none">
+		<div class="loc5_main" style="background-image:url(Loc3/sunset.jpg);">
+			<div class="student_5" style="display:none">
+				<img style="height:350px;width:100px;" src="Loc1/student.png">
+				<div style="display:none" class="talkStudent5">
+					<img style="height:200px;width:300px;" src="Loc2/talk.png">
+					<h5 class="loc5_talkStu text"></h5>
+				</div>
+			</div>
+		</div>
+		<div style="display:none;" class="fundament7">
+			<div style="display:none;height:1010px;" class="bgImage1 igra">		
+				<!--1 -->
+				<div class="mx-auto box">
+					<div class="boxvnutrenyi ">
+						<div class="box1 col-12 textt ">
+														
+						</div>
+						<div class="box2 col-12">
+							<p class="textPPPP pt-5">1. Есть две сестры, Старшая и Младшая,у них одно имя...?</p>
+						</div>
+						<div class="box3">
+							<!--див для картинки -->
+							<div class="boxImage texBtn1">
+								<img class="imgg " 
+								src="Loc5/idda.webp"> -->
+							</div>
+							<!--ответы -->
+							<div class="answers table">
+								<div class="row">
+									<div class="ans answ1"><p class="texBtn1 pl-3 pt-2 ">Астрид</p></div>
+									<div class="ans1 answ2"><p class="texBtn1 pl-3 pt-2">Герда</p></div>
+								</div>
+
+								<div class="row">
+									<div style="border-bottom-right-radius:10px;border-bottom-left-radius:10px;" class="ans1 answ3"><p class="texBtn1 pl-3 pt-2">Брюнхильд</p></div>
+									<div style="border-bottom-right-radius:10px;border-bottom-left-radius:10px;" class="ans answ4"><p class="texBtn1 pl-3 pt-2">Эдда</p></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--2 -->
+				<div class="mx-auto boxx">
+					<div class="boxvnutrenyii ">
+						<div class="boxx1 col-12 textt ">
+														
+						</div>
+						<div class="boxx2 col-12">
+							<p class="textPPPP pt-5">2. Какие животные были запряжены в колесницу Фрейи?</p>
+						</div>
+						<div class="boxx3">
+							<!--див для картинки -->
+							<div class="boxImagee texBtn1">
+								<img class="immgg " 
+								src="Loc5/fraaya.jpg">
+							</div>
+							<!--ответы -->
+							<div class="answerss tablee">
+								<div class="row">
+									<div class="anss anssw1"><p class="texBtn1 pl-3 pt-2 ">Лошади</p></div>
+									<div class="anss1 anssw2"><p class="texBtn1 pl-3 pt-2">Кошки</p></div>
+								</div>
+
+								<div class="row">
+									<div style="border-bottom-right-radius:10px;border-bottom-left-radius:10px;" class="anss1 anssw3"><p class="texBtn1 pl-3 pt-2">Мыши</p></div>
+									<div style="border-bottom-right-radius:10px;border-bottom-left-radius:10px;" class="anss anssw4"><p class="texBtn1 pl-3 pt-2">Голуби</p></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--3-->
+				<div class="mx-auto boxxx">
+					<div class="boxvnutrenyiii ">
+						<div class="boxxx1 col-12 textt ">
+														
+						</div>
+						<div class="boxxx2 col-12">
+							<p class="textPPPP pt-5">3. Куда, по приданиям, попадают павшие в битвах воины?</p>
+						</div>
+						<div class="boxxx3">
+							<!--див для картинки -->
+							<div class="boxImageee texBtn1">
+								<img class="immmgg " 
+								src="Loc5/Walhall.jpg">
+							</div>
+							<!--ответы -->
+							<div class="answersss tableee">
+								<div class="row">
+									<div class="ansss ansssw1"><p class="texBtn1 pl-3 pt-2 ">В рай</p></div>
+									<div class="ansss1 ansssw2"><p class="texBtn1 pl-3 pt-2">В Асгард</p></div>
+								</div>
+
+								<div class="row">
+									<div style="border-bottom-right-radius:10px;border-bottom-left-radius:10px;" class="ansss1 ansssw3"><p class="texBtn1 pl-3 pt-2">В Вальхаллу</p></div>
+									<div style="border-bottom-right-radius:10px;border-bottom-left-radius:10px;" class="ansss ansssw4"><p class="texBtn1 pl-3 pt-2">В Утгард</p></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--4-->
+				<div class="mx-auto boxxxx">
+					<div class="boxvnutrenyiiii ">
+						<div class="boxxxx1 col-12 textt ">
+														
+						</div>
+						<div class="boxxxx2 col-12">
+							<p class="textPPPP pt-5">4. Что такое Рагнарёк?</p>
+						</div>
+						<div class="boxxxx3">
+							<!--див для картинки -->
+							<div class="boxImageeee texBtn1">
+								<img class="immmmgg " 
+								src="Loc5/ragnarek.jpg">
+							</div>
+							<!--ответы -->
+							<div class="answerssss tableeee">
+								<div class="row">
+									<div class="anssss anssssw1"><p class="texBtn1 pl-3 pt-2 ">Гибель богов и всего мира</p></div>
+									<div class="anssss1 anssssw2"><p class="texBtn1 pl-3 pt-2">Соединение Асгарда и Мидгарда</p></div>
+								</div>
+
+								<div class="row">
+									<div style="border-bottom-right-radius:10px;border-bottom-left-radius:10px;" class="anssss1 anssssw3"><p class="texBtn1 pl-3 pt-2">День гибели Одина</p></div>
+									<div style="border-bottom-right-radius:10px;border-bottom-left-radius:10px;" class="anssss anssssw4"><p class="texBtn1 pl-3 pt-2">День гибели Тора</p></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--5-->
+				<div class="mx-auto booxxxx">
+					<div class="booxvnutrenyiiii ">
+						<div class="booxxxx1 col-12 textt ">
+														
+						</div>
+						<div class="booxxxx2 col-12">
+							<p class="textPPPP pt-5">5. Кровавый орёл - это...</p>
+						</div>
+						<div class="booxxxx3">
+							<!--див для картинки -->
+							<div class="booxImageeee texBtn1">
+								<img class="immmmggg " 
+								src="Loc5/kazn.png">
+							</div>
+							<!--ответы -->
+							<div class="aanswerssss taableeee">
+								<div class="row">
+									<div class="aanssss aanssssw1"><p style="font-size:14px;" class="texBtn1 pl-3 pt-2 ">Казнь, при которой жертве отрубаются все выступающие части тела, кроме: половых органов, ушей и языка,</p></div>
+									<div class="aanssss aanssssw2"><p class="texBtn1 pl-3 pt-2" style="font-size:14px;">Ритуальное самоубийство, при котором воин весится на дубе.</p></div>
+								</div>
+
+								<div class="row">
+									<div style="border-bottom-right-radius:10px;border-bottom-left-radius:10px;" class="aanssss1 aanssssw3"><p class="texBtn1 pl-3 " style="font-size:14px;">Казнь, в тоже время и ритуал, при которой викинги распарывали себе живот и прибивали кишки к высокому столбу.</p></div>
+									<div style="border-bottom-right-radius:10px;border-bottom-left-radius:10px;" class="anssss aanssssw4"><p class="texBtn1 pl-3 " style="font-size:12px;">Казнь времён викингов, состоявшая в том, что на спине осуждённого рассекали рёбра, разводили их в стороны наподобие крыльев и вытаскивали наружу лёгкие.</p></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div style="border-radius:18px;padding-left:60px;padding-top:40px;" class="alerttt texBtn2"></div>
+				<div style="border-radius:18px;padding-left:60px;padding-top:40px;" class="alert2 texBtn2"></div>
+				<div style="border-radius:18px;padding-left:60px;padding-top:40px;" class="alert3 texBtn2"></div>
+				<div style="border-radius:18px;padding-left:60px;padding-top:40px;" class="alert4 texBtn2"></div>
+				<div style="border-radius:18px;padding-left:60px;padding-top:40px;" class="alert5 texBtn2"></div>
+				<div style="display:none;padding-top:20%;padding-left:5%;" class="ochki">
+					<h5 class="txtttt">Тому бошкивитому или не очень человеку, кто ответил на все мои заковыристые вопросы.</h5>
+					<h5 class="txtttt">Всего чисел мудростей, по сути, 20. Но, если ты промахивался и выбирал не тот ответ, то прощай одно число мудрости... И так с каждым вопросом.</h5>
+					<h5 class="txtttt">Знай, ты можешь лучше... А пока, вот твои числа мудрости - <span class="score txtttt "></span></h5>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="location6" style="display:none">
+		<div class="fundament8" style="background-image:url(Loc2/liabrary_.jpg);background-size:100% 100%">
+			<div class="puupil1">
+				<img src="Loc3/pupil1.png" style="width:50px;height:100px;position:absolute;margin-top: 35%;margin-left: 27%">
+			</div>
+			<div class="hiidenDiv"></div>
+			<h4 class="vremya text" style="display:none;position:absolute;left:2%;top:5%;color:white;font-size:17px;">Время: <span class="loc4_timeTxt" style="color:white;font-size:17px;">10</span></h4>
+			<div style="display:none;" class="black"></div>
+			<button style="display:none;" class="btn a2 mt butt2 text">Прибавка 10 секунд</button>
+			<div style="display:none;" class="loc6_chelokTxt"></div>
+		</div>	
+	</div>	
+	<div class="location7" style="display:none">
+		<div class="fundament9" style="background-image:url(Loc2/2_itasch.jpg);background-size:100% 100%">
+			
+			<div class="student_7">
+				<img style="height:460px;width:130px;" src="Loc1/student.png">
+			</div>
+			
+			<div style="display:none" class="talkStudent7">
+				<img style="height:200px;width:300px;" src="Loc2/talk.png">
+				<h5 class="loc7_talkStu text">Наверняка, там кто-нибудь да найдется...</h5>
+			</div>
+			<div class="loc7_door"></div>
+		</div>
+	</div>
+	<div class="location8" style="display:none">
+		<div class="fundament10" style="background-image:url(Loc2/room_2_itasch.jpg);background-size:100% 100%">
+			
+			<div class="puupil2">
+				<img src="Loc3/pupil2.png" style=" width:100px;height:200px;position:absolute;margin-top: 35%;margin-left: 27%">
+			</div>
+			<div style="display:block;" class="hiidenDiv1"></div>
+			<h4 class="vremya1 text" style="display:none;position:absolute;left:2%;top:5%;color:white;font-size:17px;">Время: <span class="loc4_timeTxt1" style="color:white;font-size:17px;">10</span></h4>
+			<div style="display:none;" class="black1"></div>
+			<button style="display:none;" class="btn a3 mt butt3 text">Прибавка 10 секунд</button>
+			<div style="display:none;" class="loc8_chelokTxt"></div>	
+		</div>	
+	</div>	
+	<div class="location9" style="display:none">
+		<div class="fundament10" style="background-image:url(Loc2/night.jpg);background-size:100% 100%">
+			<div class="student_9">
+				<img style="height:200px;width:80px;" src="Loc1/student.png">
+			</div>
+			<div class="puupil9">
+				<img src="Loc3/pupil2.png" style=" width:100px;height:200px;position:absolute;margin-top: 35%;margin-left: 27%">
+			</div>
+			<div class="puuuuupil9">
+				<img src="Loc3/pupil1.png" style="width:100px;height:200px;position:absolute;margin-top: 35%;margin-left: 27%">
+			</div>
+		</div>	
+	</div>
+		
+	
+		
+			
+				
+	
+	
+
+	
+<script type="text/javascript">
+	//9 локация 
+	let location9 = document.querySelector('.location9');
+	let student_9 = document.querySelector('.student_9');
+	let puupil9 = document.querySelector('.puupil9');
+	let puuuuupil9 = document.querySelector('.puuuuupil9');
+	// 7 локация 
+	let location7 = document.querySelector('.location7');
+	let puupil2 = document.querySelector('.puupil2');
+	let hiidenDiv1 = document.querySelector('.hiidenDiv1');
+	let vremya1 = document.querySelector('.vremya1');
+	let loc4_timeTxt1 = document.querySelector('.loc4_timeTxt1');
+	let black1 = document.querySelector('.black1');
+	let butt3 = document.querySelector('.butt3');
+	let loc3_doorPryamo = document.querySelector('.loc3_doorPryamo');
+	let talkStudent7 = document.querySelector('.talkStudent7');
+	let loc7_talkStu = document.querySelector('.loc7_talkStu');
+	let loc7_door = document.querySelector('.loc7_door');
+	// 8 локация 
+	let location8 = document.querySelector('.location8');
+	let time3 = 10;
+	let time4 = 10;
+	let loc8_chelokTxt = document.querySelector('.loc8_chelokTxt');
+	let loc6_chelokTxt = document.querySelector('.loc6_chelokTxt');
+	//первая старничка
+	let body = document.querySelector('body');
+	let intro = document.querySelector('.intro');
+	let location1 = document.querySelector('.location1');
+	let butt1 = document.querySelector('.butt1');
+	//1 локация
+	let student_1 = document.querySelector('.student_1');
+	let door = document.querySelector('.door');
+	//2 локация
+	let location2 = document.querySelector('.location2');
+	let student_2 = document.querySelector('.student_2');
+	let teacher_1 = document.querySelector('.teacher_1');
+	let talkTeacher = document.querySelector('.talkTeacher');
+	let talkStudent = document.querySelector('.talkStudent');
+	let loc2_talkTea = document.querySelector('.loc2_talkTea');
+	let loc2_talkStu = document.querySelector('.loc2_talkStu');
+	// 3 локация 
+	let teacher_3 = document.querySelector('.teacher_3');
+	let student_3 = document.querySelector('.student_3');
+	let loc3_door = document.querySelector('.loc3_door');
+	let loc3_door1 = document.querySelector('.loc3_door1');
+	let loc3_door2 = document.querySelector('.loc3_door2');
+	let loc3_door3 = document.querySelector('.loc3_door3');
+	let location3 = document.querySelector('.location3');
+	let loc3_talkStu = document.querySelector('.loc3_talkStu');
+	let loc3_talkTea = document.querySelector('.loc3_talkTea');
+	let talkStudent3 = document.querySelector('.talkStudent3');
+	let talkTeacher3 = document.querySelector('.talkTeacher3');
+	// 4 локация
+	let location4 = document.querySelector('.location4');
+	let loc4_talkStu = document.querySelector('.loc4_talkStu');
+	let talkStudent4 = document.querySelector('.talkStudent4');
+	let fundament6 = document.querySelector('.fundament6');
+	let fundament5 = document.querySelector('.fundament5');
+	let bang = document.querySelectorAll('.bang');
+	let treasure = document.querySelectorAll('.treasure');
+	let meme = document.querySelectorAll('.meme');
+	let coin = document.querySelectorAll('.coin');
+	let score3 = 0;
+	let score1 = document.querySelector('.score3');
+	let divv = document.querySelector('.divv');
+	let talk1Student4 = document.querySelector('.talk1Student4');
+	let talk2Student4 = document.querySelector('.talk2Student4');
+	let talk3Student4 = document.querySelector('.talk3Student4');
+	let talk4Student4 = document.querySelector('.talk4Student4');
+	let loc4_talkStu1 = document.querySelector('.loc4_talkStu1');
+	let loc4_talkStu2 = document.querySelector('.loc4_talkStu2');
+	let loc4_talkStu3 = document.querySelector('.loc4_talkStu3');
+	let loc4_talkStu4 = document.querySelector('.loc4_talkStu4');
+	// 5 локация
+	let location5 = document.querySelector('.location5');
+	let loc5_main = document.querySelector('.loc5_main');
+	let loc5_talkStu = document.querySelector('.loc5_talkStu');
+	let student_5 = document.querySelector('.student_5');
+	let talkStudent5 = document.querySelector('.talkStudent5');
+	let scoreText = document.querySelector('.score');
+	let score = 20;
+	let ochki = document.querySelector('.ochki');
+	// 1 вопрос
+	let answ1 = document.querySelector('.answ1');
+	let answ2 = document.querySelector('.answ2');
+	let answ3 = document.querySelector('.answ3');
+	let answ4 = document.querySelector('.answ4');
+	let box = document.querySelector('.box');
+	let alerttt = document.querySelector('.alerttt');
+	// 2 вопрос
+	let anssw1 = document.querySelector('.anssw1');
+	let anssw2 = document.querySelector('.anssw2');
+	let anssw3 = document.querySelector('.anssw3');
+	let anssw4 = document.querySelector('.anssw4');
+	let boxx = document.querySelector('.boxx');
+	let alert2 = document.querySelector('.alert2');
+	// 3 вопрос
+	let ansssw1 = document.querySelector('.ansssw1');
+	let ansssw2 = document.querySelector('.ansssw2');
+	let ansssw3 = document.querySelector('.ansssw3');
+	let ansssw4 = document.querySelector('.ansssw4');
+	let boxxx = document.querySelector('.boxxx');
+	let alert3 = document.querySelector('.alert3');
+	// 4 вопрос
+	let anssssw1 = document.querySelector('.anssssw1');
+	let anssssw2 = document.querySelector('.anssssw2');
+	let anssssw3 = document.querySelector('.anssssw3');
+	let anssssw4 = document.querySelector('.anssssw4');
+	let boxxxx = document.querySelector('.boxxxx');
+	let alert4 = document.querySelector('.alert4');
+	// 5 вопрос
+	let aanssssw1 = document.querySelector('.aanssssw1');
+	let aanssssw2 = document.querySelector('.aanssssw2');
+	let aanssssw3 = document.querySelector('.aanssssw3');
+	let aanssssw4 = document.querySelector('.aanssssw4');
+	let booxxxx = document.querySelector('.booxxxx');
+	let alert5 = document.querySelector('.alert5');
+	let igra = document.querySelector('.igra');
+	let fundament7 = document.querySelector('.fundament7');
+	// 6 локация 
+	let location6 = document.querySelector('.location6');
+	let fundament8 = document.querySelector('.fundament8');
+	let puupil1 = document.querySelector('.puupil1');
+	let loc3_doorRight = document.querySelector('.loc3_doorRight');
+	let vremya = document.querySelector('.vremya');
+	let time = 10;
+	let time1 = 10;
+	let loc4_timeTxt = document.querySelector('.loc4_timeTxt');
+	let butt2 = document.querySelector('.butt2');
+	let black = document.querySelector('.black');
+	let chelovek = 0;
+	butt1.onclick = function(){
+
+		body.style.transition = '3s';
+		body.style.opacity = '0';
+		body.style.backgroundColor = 'black';
+		body.style.backgroundImage = 'none';
+		intro.style.display = 'none';
+		let changeLocation1 = function() {
+			body.style.transition = '2s';
+			body.style.opacity = '1';
+			location1.style.display = 'block';
+		}
+		setTimeout(changeLocation1,2000);
+
+		door.onclick = function(){
+			student_1.style.transition = '1s';
+			student_1.style.left = '590px';
+			student_1.style.top = '480px';
+			let dark = function(){
+				body.style.transition = '3s';
+				body.style.opacity = '0';
+				body.style.backgroundColor = 'black';
+			}
+			setTimeout(dark,1000)
+			let changeLocation2 = function(){
+				location1.style.display = 'none';
+				body.style.transition = '3s';
+				body.style.opacity = '1';
+				location2.style.display = 'block';
+				let noticy1 = function(){
+					talkStudent.style.display = 'block';
+				}		
+				setTimeout(noticy1,2000);
+				let noticy2 = function(){
+					talkTeacher.style.display = 'block';
+				}		
+				setTimeout(noticy2,3000);	
+
+			}
+			setTimeout(changeLocation2,4000);
+						
+		}
+
+		loc3_door.onclick = function(){
+			let dark1 = function(){
+				body.style.transition = '2s';
+				body.style.opacity = '0';
+				body.style.backgroundColor = 'black';
+			}
+			setTimeout(dark1,1000);
+			let changeLocation3 = function(){
+				location2.style.display = 'none';
+				body.style.transition = '3s';
+				body.style.opacity = '1';
+				location3.style.display = 'block';
+				teacher_3.style.display = 'block'
+			}
+			setTimeout(changeLocation3,3000);
+
+			let noticy3 = function(){
+				talkStudent3.style.display = 'block';
+			}		
+			setTimeout(noticy3,5000);
+			let noticy4 = function(){
+				talkTeacher3.style.display = 'block';
+			}		
+			setTimeout(noticy4,3000);
+			let none_soobsh = function(){
+				talkStudent3.style.display = 'none';
+				talkTeacher3.style.display = 'none';
+			}
+			setTimeout(none_soobsh,8000);
+
+			
+			
+		}
+		loc3_door1.onclick = function(){
+				student_3.style.transition = '1s';
+				student_3.style.left = '5%';
+				let before = function(){
+					body.style.transition = '2s';
+					body.style.opacity = '0';
+					body.style.backgroundColor = 'black';
+				}
+
+				let dark2 = function(){
+					body.style.transition = '2s';
+					body.style.opacity = '0';
+					body.style.backgroundColor = 'black';
+				}
+				setTimeout(dark2,1000);
+				let changeLocation4 = function(){
+					location3.style.display = 'none';
+					body.style.transition = '3s';
+					body.style.opacity = '1';
+					location4.style.display = 'block';
+				}
+				setTimeout(changeLocation4,3000);
+				let noticy = function(){
+					talkStudent4.style.display = 'block';
+					loc4_talkStu.style.display = 'block';
+				}
+				setTimeout(noticy,2000);
+				let noticyy = function(){
+					talkStudent4.style.display = 'none';
+				}
+				setTimeout(noticyy,6000);
+				let poyavlenie = function(){
+					fundament5.style.display = 'block';
+					content.style.display = 'block';
+				}
+				setTimeout(poyavlenie,7000);
+				let boxes = document.querySelectorAll('.boxs');
+				let scoreee = 150;
+				let scoreT = document.querySelector('.scoreee');
+				let kost = document.querySelector('.bt');
+				let step = 0;
+				let duck = document.querySelector('.firsBox');
+				let content = document.querySelector('.content');
+				let fundament5 = document.querySelector('.fundament5');		
+				kost.onclick = function(){
+					boxes[step].style.backgroundImage = 'none';
+					boxes[step].style.backgroundImage = 'Loc2/bgmaps.jpg';
+					boxes[step].style.backgroundSize = '100% 100%';
+					let randNum = Math.random() * 5;
+					let roundNum = Math.round(randNum);
+					step = step + roundNum;
+					alert(' Иди на ' + roundNum + ' на клетку ' + step);
+					boxes[step].style.backgroundImage = 'url(Loc2/duck.png)';
+					boxes[step].style.backgroundSize = '100%';
+					let scoreBill = function(bill){
+						scoreee = scoreee + bill;
+						scoreT.innerHTML = scoreee;
+					}
+					
+					if(roundNum == 0){
+						scoreBill(0);
+						
+					}
+					
+					if(roundNum > 0){
+						scoreBill(10);
+						
+					}
+					if(step == 3 || step == 6 || step == 9){
+						alert(' Выговор: минус 10  очков! ступай на одну клетку назад! ');
+						step = step - 2;
+						scoreBill(- 20);
+						
+						
+						boxes[3].style.backgroundImage = 'url(Loc2/fire.jpg)';
+						boxes[3].style.backgroundSize = '100% 100%';
+						
+						boxes[6].style.backgroundImage = 'url(Loc2/fire.jpg)';
+						boxes[6].style.backgroundSize = '100% 100%';
+						
+						boxes[9].style.backgroundImage = 'url(Loc2/fire.jpg)';
+						boxes[9].style.backgroundSize = '100% 100%';
+
+						boxes[step].style.backgroundImage = 'url(Loc2/duck.png)';
+						boxes[step].style.backgroundSize = '100%';
+					}
+					if(step == 12){
+						alert('Выговор: минус 50 очков! ступай на 5 клеток назад!');
+						step = step - 5;
+						scoreBill(- 60);
+						boxes[12].style.backgroundImage = 'none';
+						boxes[12].style.backgroundImage = 'Loc2/bgmaps.jpg';
+						boxes[12].style.backgroundSize = '100% 100%';
+						boxes[step].style.backgroundImage = 'url(Loc2/duck.png)';
+						boxes[step].style.backgroundSize = '100%';
+					}
+					if(step >= 31){
+						fundament5.style.display = 'none';
+						content.style.display = 'none';
+						alert('Ты выиграл!');
+						let govor = function(){
+							talkStudent4.style.display = 'block';
+							loc4_talkStu.style.fontSize = '9px';
+							
+							loc4_talkStu.style.marginLeft = '66px';
+							loc4_talkStu.innerHTML = 'Быть может, неплохо было бы еще сыграть, а то, если я поделюсь с ними, то они меня точно все переиграют и останусь я ни с чем, буду последним - я этого не хочу.';
+						}
+						setTimeout(govor,2000)
+						let poyavlenie1 = function(){
+							fundament6.style.display = 'block';
+							divv.style.display = 'block';
+							talkStudent4.style.display = 'none';
+						}
+						setTimeout(poyavlenie1,8000);					
+							
+							//взрывы
+							for(let i = 0; i < 6 ; i++) {
+								bang[i].onclick = function(){
+									score3 = score3 - 1;
+									score1.innerHTML = score3;
+									
+									bang[i].style.backgroundImage = 'url(Loc2/bang.jpg)';
+									bang[i].style.backgroundSize = '100% 100%';
+								}
+							}
+							for(let i = 0; i < 7; i++){
+								coin[i].onclick = function(){
+									score3 = score3 + 1;
+									score1.innerHTML = score3;
+									if(score3 == 6){
+										alert('Ты выиграл!');
+										fundament6.style.display = 'none';
+										divv.style.display = 'none';
+										
+										let govor1 = function(){
+											talkStudent4.style.display = 'block';
+											loc4_talkStu.style.fontSize = '11px';
+											loc4_talkStu.style.fmarginTop = '-95px';
+											loc4_talkStu.innerHTML = 'Все это, конечно, интересно, но вот уже совем скоро закат. Хотелось бы посмотреть на него.';
+										}
+										setTimeout(govor1,2000);
+										let dark3 = function(){
+											body.style.transition = '2s';
+											body.style.opacity = '0';
+											body.style.backgroundColor = 'black';
+										}
+										setTimeout(dark3,5000);
+										let changeLocation5 = function(){
+											location4.style.display = 'none';
+											body.style.transition = '3s';
+											body.style.opacity = '1';
+											location5.style.display = 'block';
+											student_5.style.display = 'block';
+											talkStudent5.style.display = 'block';
+											loc5_talkStu.innerHTML = 'Всё же как захватывает дух в наших местных красотах.'
+										}
+										setTimeout(changeLocation5,9000);
+										let govor2 = function(){
+											talkStudent5.style.display = 'block';
+											loc5_talkStu.innerHTML = 'Хм..Что это?Чья-то запись?'
+
+										}
+										setTimeout(govor2,12000);
+										let dark4 = function(){
+											body.style.transition = '2s';
+											body.style.opacity = '0';
+											body.style.backgroundColor = 'black';
+										}
+										setTimeout(dark4,15000);
+										let poyavlenie2 = function(){
+											body.style.transition = '2s';
+											body.style.opacity = '1';
+											loc5_main.style.display = 'none';
+											location5.style.display = 'block';
+											fundament7.style.display = 'block';
+											igra.style.display = 'block';
+										}
+										setTimeout(poyavlenie2,19000);
+										
+										// 1 вопрос
+										answ1.onclick = function(){
+											alerttt.style.display = 'block';
+											alerttt.innerHTML= 'Неверно.';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+										answ2.onclick = function(){
+											alerttt.style.display = 'block';
+											alerttt.innerHTML= 'Неверно..';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+										answ3.onclick = function(){
+											alerttt.style.display = 'block';
+											alerttt.innerHTML= 'Неверно...';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+										answ4.onclick = function(){
+											alerttt.style.display = 'block';
+											alerttt.innerHTML= 'Верно';
+											alerttt.innerHTML = null;
+											alerttt.style.display = 'none';
+											box.style.display = 'none';
+											boxx.style.display = 'block';
+										}
+
+
+										// 2 вопрос
+										anssw1.onclick = function(){
+											alert2.style.display = 'block';
+											alert2.innerHTML= 'Неверно.';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+										anssw2.onclick = function(){
+											alert2.style.display = 'block';
+											alert2.innerHTML= 'Верно';
+											alert2.innerHTML = null;
+											alert2.style.display = 'none';
+											boxx.style.display = 'none';
+											boxxx.style.display = 'block';
+										}
+										anssw3.onclick = function(){
+											alert2.style.display = 'block';
+											alert2.innerHTML= 'Неверно...';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+										anssw4.onclick = function(){
+											alert2.style.display = 'block';      
+											alert2.innerHTML= 'Неверно..';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+
+
+
+										// 3 вопрос
+										ansssw1.onclick = function(){
+											alert3.style.display = 'block';
+											alert3.innerHTML= 'Неверно.';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+										ansssw2.onclick = function(){
+											alert3.style.display = 'block';
+											alert3.innerHTML= 'Неверно..';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+										ansssw3.onclick = function(){
+											alert3.style.display = 'block';
+											alert3.innerHTML= 'Верно';
+											alert3.innerHTML = null;
+											alert3.style.display = 'none';
+											boxxx.style.display = 'none';
+											boxxxx.style.display = 'block';
+										}
+										ansssw4.onclick = function(){
+											alert3.style.display = 'block';      
+											alert3.innerHTML= 'Неверно...';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+
+
+										// 4 вопрос
+										anssssw1.onclick = function(){
+											alert4.style.display = 'block';
+											alert4.innerHTML= 'Верно';
+											alert4.innerHTML = null;
+											alert4.style.display = 'none';
+											boxxxx.style.display = 'none';
+											booxxxx.style.display = 'block';
+										}
+										anssssw2.onclick = function(){
+											alert4.style.display = 'block';
+											alert4.innerHTML= 'Неверно...';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+										anssssw3.onclick = function(){
+											alert4.style.display = 'block';
+											alert4.innerHTML= 'Неверно.';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+										anssssw4.onclick = function(){
+											alert4.style.display = 'block';      
+											alert4.innerHTML= 'Неверно..';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+
+										// 5 вопрос
+										aanssssw1.onclick = function(){
+											alert5.style.display = 'block';      
+											alert5.innerHTML= 'Неверно..';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+										aanssssw2.onclick = function(){
+											alert5.style.display = 'block';
+											alert5.innerHTML= 'Неверно...';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+										aanssssw3.onclick = function(){
+											alert5.style.display = 'block';
+											alert5.innerHTML= 'Неверно.';
+											score = score - 1;
+											scoreText.innerHTML = score;
+											console.log(score);
+										}
+										aanssssw4.onclick = function(){
+											alert5.style.display = 'block';
+											alert5.innerHTML= 'Верно';
+											alert5.innerHTML = null;
+											alert5.style.display = 'none';
+											alerttt.style.display = 'none';
+											booxxxx.style.display = 'none';
+											ochki.style.display = 'block';
+											scoreText.innerHTML = score;
+											console.log(score);
+											let dark5 = function(){
+												body.style.transition = '2s';
+												body.style.opacity = '0';
+												body.style.backgroundColor = 'black';
+											}
+											setTimeout(dark5,8000);
+											let perehod = function(){
+												fundament7.style.display = 'none';
+												igra.style.display = 'none';
+												body.style.transition = '2s';
+												body.style.opacity = '1';
+												loc5_main.style.display = 'block';
+												talkStudent5.style.display = 'block';
+												loc5_talkStu.innerHTML = 'Хорошо было бы освежить память о скандинавских сюжетах...Но это как-нибудь попозже'
+											}
+											setTimeout(perehod,13000);
+											let dark6 = function(){
+												body.style.transition = '2s';
+												body.style.opacity = '0';
+												body.style.backgroundColor = 'black';
+											}
+											setTimeout(dark6,16000);
+											let perehod1 = function(){
+												location5.style.display = 'none'
+												body.style.transition = '2s';
+												body.style.opacity = '1';
+												location3.style.display = 'block';
+												student_3.style.left = '20%';
+												teacher_3.style.display = 'none';
+												talkStudent3.style.display = 'block';
+												loc3_talkStu.innerHTML = 'Интересно, чем сейчас заняты ребята? Надо бы проверить.'
+											}
+											setTimeout(perehod1,20000);
+											let perehod4 = function(){
+												talkStudent3.style.display = 'none';
+											}
+											setTimeout(perehod4,23000);
+												
+												student_3.style.transition = '1s';
+												student_3.style.left = '5%';
+												let dark7 = function(){
+													body.style.transition = '2s';
+													body.style.opacity = '0';
+													body.style.backgroundColor = 'black';
+												}
+												setTimeout(dark7,26000);
+												let perehod2 = function(){
+													talkStudent4.style.display = 'none';
+													fundament5.style.display = 'none';
+													divv.style.display = 'none';
+													fundament6.style.display = 'none';
+													content.style.display = 'none';
+													location3.style.display = 'none'
+													body.style.transition = '2s';
+													body.style.opacity = '1';
+													location4.style.display = 'block'
+													talkStudent4.style.display = 'block';
+													loc4_talkStu.innerHTML = 'Всем привет!';
+													loc4_talkStu.style.marginTop = '-130px';
+												}
+												setTimeout(perehod2,29000);
+												let vopros = function(){
+													talkStudent4.style.display = 'block';
+													loc4_talkStu.innerHTML = 'А давайте сыграем в прятки! Кто со мной?';
+													loc4_talkStu.style.marginTop = '-130px';
+												}
+												setTimeout(vopros,32000);
+												let otvet_1 = function(){
+													talk1Student4.style.display = 'block';
+													loc4_talkStu1.style.display = 'block';
+
+													talk2Student4.style.display = 'block';
+													loc4_talkStu2.style.display = 'block';
+
+													talk4Student4.style.display = 'block';
+													loc4_talkStu4.style.display = 'block';
+												}
+												setTimeout(otvet_1,34000);
+												let otvet_2 = function(){
+													talkStudent4.style.display = 'block';
+													loc4_talkStu.innerHTML = 'Славно! Тогда я начинаю считать... 1, 2, 3, 4, 5...';
+													talkStudent3.style.display = 'none';
+												}
+												setTimeout(otvet_2,36000);
+												let dark8 = function(){
+													body.style.transition = '2s';
+													body.style.opacity = '0';
+													body.style.backgroundColor = 'black';
+												}
+												setTimeout(dark8,39000);
+												let perehod3 = function(){
+													
+													location4.style.display = 'none'
+													body.style.transition = '2s';
+													body.style.opacity = '1';
+													location3.style.display = 'block'
+													talkStudent3.style.display = 'block';
+													loc3_talkStu.innerHTML = 'Сейчас я вас найду...';
+													loc3_door3.remove();
+												}
+												setTimeout(perehod3,42000);
+												let opovesh = function(){
+													talkStudent3.style.display = 'none';
+													alert('Тишина...Для того, чтобы всех отыскать, нужно внимательно осмотреть все двери, которые только здесь есть; после этого тебе придется вглядываться в каждую мелочь, лишь бы побыстрее их застать врасплох... P.S. Жми на двери.');
+												}
+												setTimeout(opovesh,44000);
+
+											
+
+											
+										}
+										
+										
+																				
+									}
+									
+									coin[i].style.backgroundImage = 'url(Loc2/gold.jpg)';
+									coin[i].style.backgroundSize = '100% 100%';	
+								}	
+							}
+							for(let i = 0; i < 6; i++){
+								treasure[i].onclick = function(){
+									score3 = score3 + 1;
+									score1.innerHTML = score3;
+									
+									treasure[i].style.backgroundImage = 'url(https://render.fineartamerica.com/images/rendered/default/greeting-card/images/artworkimages/medium/1/treasure-chest-with-gold-coins-garry-gay.jpg?&targetx=0&targety=-24&imagewidth=500&imageheight=749&modelwidth=500&modelheight=700&backgroundcolor=720305&orientation=1)';
+									treasure[i].style.backgroundSize = '100% ';	
+								}	
+							}
+							for(let i = 0; i < 18; i++){
+								meme[i].onclick = function(){
+									meme[i].style.backgroundImage = 'url(Loc2/jester.jpg)';
+									meme[i].style.backgroundSize = '100% ';	
+								}	
+							}
+							
+						
+					}	
+				}
+				
+				
+		}
+		loc3_doorRight.onclick = function(){
+			student_3.style.transition = '2s';
+			student_3.style.left = '1090px';
+			let dark9 = function(){
+				body.style.transition = '2s';
+				body.style.opacity = '0';
+				body.style.backgroundColor = 'black';
+			}
+			setTimeout(dark9,3000);
+			let changeLocation6 = function(){
+				location3.style.display = 'none';
+				body.style.transition = '3s';
+				body.style.opacity = '1';
+				location6.style.display = 'block';
+				time = 10;
+				loc4_timeTxt.innerHTML = time;
+			}
+			setTimeout(changeLocation6,6000);
+			let alllert = function(){
+				alert('Время на поиски ограничивается 10 секундами. Затем будет возможность прибавить еще 10 секунд при случае, если не успели найти.');
+			}
+			setTimeout(alllert,7000);
+			let timefunc = function(){
+				vremya.style.display = 'block';
+				time = time - 1;
+				loc4_timeTxt.innerHTML = time;
+				if(time == 0){
+					alert('Время вышло!');
+					time = 0;
+					clearInterval(stop1);
+					let dark10 = function(){
+						body.style.transition = '2s';
+						body.style.opacity = '0';
+						body.style.backgroundColor = 'black';
+					}
+					setTimeout(dark10,2000);
+					let vopros1 = function(){
+						body.style.transition = '2s';
+						body.style.opacity = '1';
+						black.style.display = 'block'
+						butt2.style.display = 'block'
+					}
+					setTimeout(vopros1,4000);	
+				}
+			}
+			let stop1 = setInterval(timefunc,1000);
+			
+
+			butt2.onclick = function(){
+				let dark11 = function(){
+					body.style.transition = '2s';
+					body.style.opacity = '0';
+					body.style.backgroundColor = 'black';
+				}
+				setTimeout(dark11,1000);
+				let poyavlenie3 = function(){
+					butt2.style.display = 'none'
+					body.style.transition = '3s';
+					body.style.opacity = '1';
+					black.style.display = 'none'
+					location6.style.display = 'block';
+					time1 = 10;
+					loc4_timeTxt.innerHTML = time1;
+				}
+				setTimeout(poyavlenie3,3000);
+				let timefunc1 = function(){
+					vremya.style.display = 'block';
+					time1 = time1 - 1;
+					loc4_timeTxt.innerHTML = time1;
+					if(time1 == 0){
+						alert('Время вышло!');
+						time1 = 0;
+						clearInterval(stop2);
+						let dark13 = function(){
+							body.style.transition = '2s';
+							body.style.opacity = '0';
+							body.style.backgroundColor = 'black';
+							talkStudent3.style.left = '50%';
+						}
+						setTimeout(dark13,1000);
+						let perehod4 = function(){
+							clearInterval(stop2);
+							time1 = 3;
+							student_3.style.transition = '2s';
+							student_3.style.left = '40%';
+							teacher_3.style.display = 'none'
+							location6.style.display = 'none';
+							body.style.transition = '3s';
+							body.style.opacity = '1';
+							location3.style.display = 'block';
+							talkStudent3.style.display = 'block'
+							loc3_talkStu.innerHTML = 'Один пойманный в запасе уже есть..';
+							
+						}
+						setTimeout(perehod4,4000);
+						let nonne =function(){
+							talkStudent3.style.display = 'none'
+						}
+						setTimeout(nonne,6000)
+					}
+				}
+				let stop2 = setInterval(timefunc1,1000);
+				setTimeout(timefunc1,4000);
+			}
+			puupil1.onclick = function(){
+				let wow = function(){
+					alert('Молодец! Осталось еще двое.');
+					clearInterval(stop2);
+					clearInterval(stop1);
+					time1 = 3;
+					chelovek = chelovek + 1;
+					loc6_chelokTxt.innerHTML = chelovek;
+
+					console.log(chelovek);
+				}
+				setTimeout(wow,1000);
+				let dark12 = function(){
+					body.style.transition = '2s';
+					body.style.opacity = '0';
+					body.style.backgroundColor = 'black';
+					talkStudent3.style.left = '50%';
+				}
+				setTimeout(dark12,1000);
+				let changeLocation7 = function(){
+
+					student_3.style.transition = '2s';
+					student_3.style.left = '40%';
+					location6.style.display = 'none';
+					body.style.transition = '3s';
+					body.style.opacity = '1';
+					location3.style.display = 'block';
+					talkStudent3.style.display = 'block'
+					loc3_talkStu.innerHTML = 'Один пойманный в запасе уже есть..';
+				}
+				setTimeout(changeLocation7,4000);
+				let nonne1 =function(){
+					talkStudent3.style.display = 'none'
+				}
+				setTimeout(nonne1,6000)
+			}
+
+			
+		}
+
+		loc3_doorPryamo.onclick = function(){
+			let dark14 = function(){
+				body.style.transition = '2s';
+				body.style.opacity = '0';
+				body.style.backgroundColor = 'black';
+				teacher_3.style.display = 'none';
+				
+			}
+			setTimeout(dark14,1000);
+			let changeLocation9 = function(){
+				location3.style.display = 'none';
+				body.style.transition = '3s';
+				body.style.opacity = '1';
+				location7.style.display = 'block';
+				talkStudent7.style.display = 'block'
+				loc7_talkStu.innerHTML = 'Наверняка, там кто-нибудь да найдется...';
+			}
+			setTimeout(changeLocation9,4000);
+			let soo = function(){
+				talkStudent7.style.display = 'none'
+			}
+			setTimeout(soo,7000);
+		}
+
+		loc7_door.onclick = function(){
+			let dark15 = function(){
+				body.style.transition = '2s';
+				body.style.opacity = '0';
+				body.style.backgroundColor = 'black';
+			}
+			setTimeout(dark15,1000);
+			let changeLocation10 = function(){
+				location7.style.display = 'none';
+				body.style.transition = '3s';
+				body.style.opacity = '1';
+				location8.style.display = 'block';
+				time3 = 10;
+				loc4_timeTxt1.innerHTML = time3;
+			}
+			setTimeout(changeLocation10,4000);
+			let alllert1 = function(){
+				alert('Время на поиски ограничивается 10 секундами. Затем будет возможность прибавить еще 10 секунд при случае, если не успели найти.');
+			}
+			setTimeout(alllert1,7000);
+
+			let timefunc3 = function(){
+				vremya1.style.display = 'block';
+				time3 = time3 - 1;
+				loc4_timeTxt1 = time3;
+				if(time3 == 0){
+					alert('Время вышло!');
+					time3 = 0;
+					clearInterval(stop3);
+					let dark16 = function(){
+						body.style.transition = '2s';
+						body.style.opacity = '0';
+						body.style.backgroundColor = 'black';
+					}
+					setTimeout(dark16,2000);
+					let vopros2 = function(){
+						body.style.transition = '2s';
+						body.style.opacity = '1';
+						black1.style.display = 'block'
+						butt3.style.display = 'block'
+					}
+					setTimeout(vopros2,4000);	
+				}
+			}
+			let stop3 = setInterval(timefunc3,1000);
+			
+
+			butt3.onclick = function(){
+				let dark17 = function(){
+					body.style.transition = '2s';
+					body.style.opacity = '0';
+					body.style.backgroundColor = 'black';
+				}
+				setTimeout(dark17,1000);
+				let poyavlenie4 = function(){
+					butt3.style.display = 'none'
+					body.style.transition = '3s';
+					body.style.opacity = '1';
+					black1.style.display = 'none'
+					location8.style.display = 'block';
+					time4 = 10;
+					loc4_timeTxt1 = time4;
+				}
+				setTimeout(poyavlenie4,3000);
+				let timefunc5 = function(){
+					vremya1.style.display = 'block';
+					time4 = time4 - 1;
+					loc4_timeTxt1 = time4;
+					if(time4 == 0){
+						alert('Время вышло!');
+						time4 = 0;
+						clearInterval(stop4);
+						let dark17 = function(){
+							body.style.transition = '2s';
+							body.style.opacity = '0';
+							body.style.backgroundColor = 'black';
+						}
+						setTimeout(dark17,1000);
+						let perehod5 = function(){
+							clearInterval(stop4);
+							time4 = 3;
+							student_3.style.transition = '2s';
+							student_3.style.left = '40%';
+							teacher_3.style.display = 'none'
+							location8.style.display = 'none';
+							body.style.transition = '3s';
+							body.style.opacity = '1';
+							location3.style.display = 'block';
+							talkStudent3.style.display = 'block'
+							loc3_talkStu.innerHTML = 'Эх, упустил последнего...';
+							
+						}
+						setTimeout(perehod5,4000);
+					}
+				}
+				let stop4 = setInterval(timefunc5,1000);
+				setTimeout(timefunc5,4000);
+
+				
+			}
+			puupil2.onclick = function(){
+				let wow1 = function(){
+					alert('Молодец! Осталось еще двое.');
+					clearInterval(stop4);
+					clearInterval(stop3);
+					time4 = 3;
+					chelovek = chelovek + 1;
+					loc8_chelokTxt.innerHTML = chelovek;
+					console.log(chelovek);
+				}
+				setTimeout(wow1,1000);
+				let dark18 = function(){
+					body.style.transition = '2s';
+					body.style.opacity = '0';
+					body.style.backgroundColor = 'black';
+					teacher_3.style.display = 'none';
+					talkStudent3.style.left = '50%';
+				}
+				setTimeout(dark18,1000);
+				let changeLocation11 = function(){
+					student_3.style.transition = '2s';
+					student_3.style.left = '40%';
+					location8.style.display = 'none';
+					body.style.transition = '3s';
+					body.style.opacity = '1';
+					location3.style.display = 'block';
+					talkStudent3.style.display = 'block'
+					loc3_talkStu.innerHTML = 'А вот и второй попался в мои лапы...Это последний';
+				}
+				setTimeout(changeLocation11,4000);
+				let soobb = function(){
+					talkStudent3.style.display = 'block'
+					loc3_talkStu.innerHTML = 'День подходит к концу, нужно уже собираться.';
+				}
+				setTimeout(soobb,6000);
+				let dark19 = function(){
+					body.style.transition = '2s';
+					body.style.opacity = '0';
+					body.style.backgroundColor = 'black';
+				}
+				setTimeout(dark19,9000);
+				let changeLocation13 = function(){
+					location3.style.display = 'none';
+					body.style.transition = '3s';
+					body.style.opacity = '1';
+					location9.style.display = 'block';
+				}
+				setTimeout(changeLocation13,12000);
+			}
+		}
+
+	}	
+	
+
+</script>
+</body>
+</html>

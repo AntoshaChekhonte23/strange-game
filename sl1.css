@@ -1,0 +1,1850 @@
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+.textP {
+	font-family: 'Yeseva One', cursive;
+	color:#9e7533;
+	font-size: 21px;
+	color:black;
+	text-align:center;
+}
+	
+.bgImage1 {
+	background-image:
+	url(https://wallpaperaccess.com/full/1302751.jpg);
+	background-size:100% 100%;
+	-webkit-animation: fade-in 1s linear; 
+	-moz-animation: fade-in 1s linear; 
+	-o-animation: fade-in 1s linear;
+	animation: fade-in 1s linear; 
+	position:relative;
+	z-index:1;
+}
+.box {
+	background-image:
+	url(https://wallpaperaccess.com/full/1302751.jpg);
+	background-size:100% 100%;
+	height:750px;
+	width:1000px;
+	position:absolute;
+	left:200px;
+	top:140px;
+	z-index:2;
+	border-radius:10px;
+	display:inline-block;
+}
+.boxvnutrenyi {
+	height:650px;
+	width:800px;
+	position:absolute;
+	top:50px;
+	left:100px;
+	display:table-cell;
+
+
+}
+.box1 {
+	height:42px;
+	position:relative;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-width:3px;
+
+}
+.box2 {
+	height:150px;
+	position:relative;
+	vertical-align:middle;
+	overflow-x:hidden;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.box3 {
+	height: 458px;
+	position:relative;
+	border-width:3px;
+}
+.boxImage {
+	height:310px;
+	position:relative;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.answers {
+	height:148px;
+	position:relative;
+	border-width:3px;
+	
+	
+}
+.ans {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */
+	
+	
+
+}
+.ans1 {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */	
+}
+.table { 
+width: 100%; /* Ширина таблицы */
+border: 4px double #9e7533; /* Рамка вокруг таблицы */
+border-collapse: collapse; /* Отображать только одинарные линии */
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}
+.texBtn1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:14px;
+	color:black;
+}
+.texBtn2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tac {
+	text-align: center;
+	padding-top:4px;
+}
+.textt {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tp {
+	position:absolute;
+	left:50px;
+	top:50px;
+
+}
+.que {
+	font-family: 'Oranienbaum', serif;
+	font-size:23px;
+}
+.imgg {
+	height:310px;
+	width:350px;
+	padding-left:50px;
+	padding-right:50px;
+	position:relative;
+	left:200px;
+}
+.table1 { 
+height:42px;
+width:100px;
+border: 4px double #9e7533; /* Рамка вокруг таблицы */
+border-collapse: collapse; /* Отображать только одинарные линии */
+position:absolute;
+left:350px;
+top:-2px;
+}
+.answ1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.answ2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.answ3 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.answ4 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}	
+.alerttt {
+	height:100px;
+	width:250px;
+	background-image:
+	url(https://wallpaperaccess.com/full/1302751.jpg);
+	
+	position:absolute;
+	left:550px;
+	top:25px;
+	display:none;
+}
+.butt {
+	height:50px;
+	width:100px;
+	background-color:gray;
+	position:absolute;
+	left:700px;
+	top:400px;
+}
+.a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  margin: 10px;
+  color: white;
+  box-shadow: 0 0 0 2px white;
+  padding: 20px 0;
+  width: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  overflow: hidden;
+
+}
+.span {
+  font-family: 'Oranienbaum', serif;
+  position: relative;
+  z-index: 5;
+}	
+.p {
+	left:-20px;
+	top:-20px;
+}
+
+
+
+
+
+/*2 вопрос*/
+			
+.boxx {
+	background-image:
+	url(https://wallpaperaccess.com/full/1302751.jpg);
+	background-size:100% 100%;
+	height:750px;
+	width:1000px;
+	position:absolute;
+	left:200px;
+	top:140px;
+	z-index:2;
+	border-radius:10px;
+	
+	display:none;
+}
+.boxvnutrenyii {
+	height:650px;
+	width:800px;
+	position:absolute;
+	top:50px;
+	left:100px;
+	display:table-cell;
+
+
+}
+.boxx1 {
+	height:42px;
+	position:relative;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-width:3px;
+
+}
+.boxx2 {
+	height:150px;
+	position:relative;
+	vertical-align:middle;
+	overflow-x:hidden;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.boxx3 {
+	height: 458px;
+	position:relative;
+	border-width:3px;
+}
+.boxImagee {
+	height:310px;
+	position:relative;
+
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.answerss {
+	height:148px;
+	position:relative;
+	border-width:3px;
+	
+	
+}
+.anss {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */
+	
+	
+
+}
+.anss1 {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */	
+}
+.tablee { 
+width: 100%; /* Ширина таблицы */
+border: 4px double #9e7533; /* Рамка вокруг таблицы */
+border-collapse: collapse; /* Отображать только одинарные линии */
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}
+.texBtn1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:13px;
+}
+.texBtn2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tac {
+	text-align: center;
+	padding-top:4px;
+}
+.textt {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tp {
+	position:absolute;
+	left:50px;
+	top:50px;
+
+}
+.quee {
+	font-family: 'Oranienbaum', serif;
+	font-size:23px;
+}
+.immgg {
+	height:310px;
+	width:350px;
+	position:relative;
+	left:200px;
+}
+.tablee1 { 
+height:42px;
+width:100px;
+border: 4px double #9e7533; /* Рамка вокруг таблицы */
+border-collapse: collapse; /* Отображать только одинарные линии */
+position:absolute;
+left:350px;
+top:-2px;
+}	
+.anssw1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.anssw2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.anssw3 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.anssw4 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}	
+.alert2 {
+	height:100px;
+	width:250px;
+	background-image:
+	url(https://wallpaperaccess.com/full/1302751.jpg);
+	position:absolute;
+	
+	left:550px;
+	top:25px;
+	display:none;
+}
+
+
+
+/*3 ВОПРОС*/
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+	.texxxtP {
+		font-family: 'Yeseva One', cursive;
+		color:#9e7533;
+		font-size: 21px;
+		color:black;
+		text-align:center;
+	}										
+.boxxx {
+	background-image:
+	url(https://wallpaperaccess.com/full/1302751.jpg);
+	background-size:100% 100%;
+	height:750px;
+	width:1000px;
+	position:absolute;
+	left:200px;
+	top:140px;
+	z-index:2;
+	border-radius:10px;
+	
+	display:none;
+}
+.boxvnutrenyiii {
+	height:650px;
+	width:800px;
+	position:absolute;
+	top:50px;
+	left:100px;
+	display:table-cell;
+
+
+}
+.boxxx1 {
+	height:42px;
+	position:relative;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-width:3px;
+
+}
+.boxxx2 {
+	height:150px;
+	position:relative;
+	vertical-align:middle;
+	overflow-x:hidden;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.boxxx3 {
+	height: 458px;
+	position:relative;
+	border-width:3px;
+}
+.boxImageee {
+	height:310px;
+	position:relative;
+
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.answersss {
+	height:148px;
+	position:relative;
+	border-width:3px;
+	
+	
+}
+.ansss {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */
+	
+	
+
+}
+.ansss1 {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */	
+}
+.tableee { 
+width: 100%; /* Ширина таблицы */
+border: 4px double #9e7533; /* Рамка вокруг таблицы */
+border-collapse: collapse; /* Отображать только одинарные линии */
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}
+.texBtn1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+}
+.texBtn2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tac {
+	text-align: center;
+	padding-top:4px;
+}
+.textt {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tp {
+	position:absolute;
+	left:50px;
+	top:50px;
+
+}
+
+.queee {
+	font-family: 'Oranienbaum', serif;
+	font-size:23px;
+}
+.immmgg {
+	height:310px;
+	width:350px;
+	position:relative;
+	left:200px;
+}
+.tableee1 { 
+	height:42px;
+	width:100px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */
+	position:absolute;
+	left:350px;
+	top:-2px;
+}	
+.ansssw1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.ansssw2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.ansssw3 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.ansssw4 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}	
+.alert3 {
+	height:100px;
+	width:250px;
+	background-image:
+	url(https://wallpaperaccess.com/full/1302751.jpg);
+	position:absolute;
+	left:550px;
+	top:25px;
+	display:none;
+}
+
+/*4 ВОПРОС*/
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+	.texxxxtP {
+		font-family: 'Yeseva One', cursive;
+		color:#9e7533;
+		font-size: 21px;
+		color:black;
+		text-align:center;
+	}										
+.boxxxx {
+	background-image:
+	url(https://wallpaperaccess.com/full/1302751.jpg);
+	background-size:100% 100%;
+	height:750px;
+	width:1000px;
+	position:absolute;
+	left:200px;
+	top:140px;
+	z-index:2;
+	border-radius:10px;
+	
+	display:none;
+}
+.boxvnutrenyiiii {
+	height:650px;
+	width:800px;
+	position:absolute;
+	top:50px;
+	left:100px;
+	display:table-cell;
+
+
+}
+.boxxxx1 {
+	height:42px;
+	position:relative;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-width:3px;
+
+}
+.boxxxx2 {
+	height:150px;
+	position:relative;
+	vertical-align:middle;
+	overflow-x:hidden;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.boxxxx3 {
+	height: 458px;
+	position:relative;
+	border-width:3px;
+}
+.boxImageeee {
+	height:310px;
+	position:relative;
+
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.answerssss {
+	height:148px;
+	position:relative;
+	border-width:3px;
+	
+	
+}
+.anssss {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */
+	
+	
+
+}
+.anssss1 {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */	
+}
+.tableeee { 
+width: 100%; /* Ширина таблицы */
+border: 4px double #9e7533; /* Рамка вокруг таблицы */
+border-collapse: collapse; /* Отображать только одинарные линии */
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}
+.texBtn1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+}
+.texBtn2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tac {
+	text-align: center;
+	padding-top:4px;
+}
+.textt {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tp {
+	position:absolute;
+	left:50px;
+	top:50px;
+
+}
+
+.queeee {
+	font-family: 'Oranienbaum', serif;
+	font-size:23px;
+}
+.immmmgg {
+	height:310px;
+	width:350px;
+	position:relative;
+	left:200px;
+}
+.tableeee1 { 
+	height:42px;
+	width:100px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */
+	position:absolute;
+	left:350px;
+	top:-2px;
+}	
+.anssssw1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.anssssw2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.anssssw3 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.anssssw4 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}	
+.alert4 {
+	height:100px;
+	width:250px;
+	background-image:
+	url(https://wallpaperaccess.com/full/1302751.jpg);
+	position:absolute;
+	left:550px;
+	top:25px;
+	display:none;
+}
+
+/*5 ВОПРОС*/
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+	.teexxxxtP {
+		font-family: 'Yeseva One', cursive;
+		color:#9e7533;
+		font-size: 21px;
+		color:black;
+		text-align:center;
+	}										
+.booxxxx {
+	background-image:
+	url(https://wallpaperaccess.com/full/1302751.jpg);
+	background-size:100% 100%;
+	height:750px;
+	width:1000px;
+	position:absolute;
+	left:200px;
+	top:140px;
+	z-index:2;
+	border-radius:10px;
+	
+	display:none;
+}
+.booxvnutrenyiiii {
+	height:650px;
+	width:800px;
+	position:absolute;
+	top:50px;
+	left:100px;
+	display:table-cell;
+
+
+}
+.booxxxx1 {
+	height:42px;
+	position:relative;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-width:3px;
+
+}
+.booxxxx2 {
+	height:150px;
+	position:relative;
+	vertical-align:middle;
+	overflow-x:hidden;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.booxxxx3 {
+	height: 458px;
+	position:relative;
+	border-width:3px;
+}
+.booxImageeee {
+	height:310px;
+	position:relative;
+
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.aanswerssss {
+	height:148px;
+	position:relative;
+	border-width:3px;
+	
+	
+}
+.aanssss {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */
+	
+	
+
+}
+.aanssss1 {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */	
+}
+.taableeee { 
+width: 100%; /* Ширина таблицы */
+border: 4px double #9e7533; /* Рамка вокруг таблицы */
+border-collapse: collapse; /* Отображать только одинарные линии */
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}
+.texBtn1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+}
+.texBtn2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tac {
+	text-align: center;
+	padding-top:4px;
+}
+.textt {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tp {
+	position:absolute;
+	left:50px;
+	top:50px;
+
+}
+
+.quueeee {
+	font-family: 'Oranienbaum', serif;
+	font-size:23px;
+}
+.immmmggg {
+	height:310px;
+	width:350px;
+	position:relative;
+	left:200px;
+}
+.taableeee1 { 
+	height:42px;
+	width:100px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */
+	position:absolute;
+	left:350px;
+	top:-2px;
+}	
+.aanssssw1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aanssssw2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aanssssw3 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aanssssw4 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}	
+.alert5 {
+	height:100px;
+	width:250px;
+	background-image:
+	url(https://wallpaperaccess.com/full/1302751.jpg);
+	position:absolute;
+	left:550px;
+	top:25px;
+	display:none;
+}
+
+/*6 ВОПРОС*/									
+.boooxxxx {
+	background-color:white;
+	height:750px;
+	width:1000px;
+	position:absolute;
+	left:500px;
+	top:170px;
+	z-index:2;
+	border-radius:10px;
+	position:relative;
+	left:48px;
+	top:170px;
+	display:none;
+}
+.boooxvnutrenyiiii {
+	height:650px;
+	width:800px;
+	position:absolute;
+	top:50px;
+	left:100px;
+	display:table-cell;
+
+
+}
+.boooxxxx1 {
+	height:42px;
+	position:relative;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-width:3px;
+
+}
+.boooxxxx2 {
+	height:150px;
+	position:relative;
+	vertical-align:middle;
+	overflow-x:hidden;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.boooxxxx3 {
+	height: 458px;
+	position:relative;
+	border-width:3px;
+}
+.boooxImageeee {
+	height:310px;
+	position:relative;
+
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.aaanswerssss {
+	height:148px;
+	position:relative;
+	border-width:3px;
+	
+	
+}
+.aaanssss {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */
+	
+	
+
+}
+.aaanssss1 {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */	
+}
+.taaableeee { 
+width: 100%; /* Ширина таблицы */
+border: 4px double #9e7533; /* Рамка вокруг таблицы */
+border-collapse: collapse; /* Отображать только одинарные линии */
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}
+.texBtn1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+}
+.texBtn2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tac {
+	text-align: center;
+	padding-top:4px;
+}
+.textt {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tp {
+	position:absolute;
+	left:50px;
+	top:50px;
+
+}
+.immmmgggg {
+	height:310px;
+	width:350px;
+	position:relative;
+	left:200px;
+}
+.aaanssssw1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaanssssw2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaanssssw3 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaanssssw4 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}	
+.alert6 {
+	height:100px;
+	width:250px;
+	background-color:white;
+	position:absolute;
+	left:900px;
+	top:25px;
+	display:none;
+}
+
+/*7 ВОПРОС*/									
+.bboooxxxx {
+	background-color:white;
+	height:750px;
+	width:1000px;
+	position:absolute;
+	left:500px;
+	top:170px;
+	z-index:2;
+	border-radius:10px;
+	position:relative;
+	left:48px;
+	top:170px;
+	display:none;
+}
+.bboooxvnutrenyiiii {
+	height:650px;
+	width:800px;
+	position:absolute;
+	top:50px;
+	left:100px;
+	display:table-cell;
+
+
+}
+.bboooxxxx1 {
+	height:42px;
+	position:relative;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-width:3px;
+
+}
+.bboooxxxx2 {
+	height:150px;
+	position:relative;
+	vertical-align:middle;
+	overflow-x:hidden;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.bboooxxxx3 {
+	height: 458px;
+	position:relative;
+	border-width:3px;
+}
+.bboooxImageeee {
+	height:310px;
+	position:relative;
+
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.aaaanswerssss {
+	height:148px;
+	position:relative;
+	border-width:3px;
+	
+	
+}
+.aaaanssss {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */
+	
+	
+
+}
+.aaaanssss1 {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */	
+}
+.taaaableeee { 
+width: 100%; /* Ширина таблицы */
+border: 4px double #9e7533; /* Рамка вокруг таблицы */
+border-collapse: collapse; /* Отображать только одинарные линии */
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}
+.texBtn1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+}
+.texBtn2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tac {
+	text-align: center;
+	padding-top:4px;
+}
+.textt {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tp {
+	position:absolute;
+	left:50px;
+	top:50px;
+
+}
+.iimmmmgggg {
+	height:310px;
+	width:350px;
+	position:relative;
+	left:200px;
+}
+.aaaanssssw1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaanssssw2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaanssssw3 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaanssssw4 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}	
+.alert7 {
+	height:100px;
+	width:250px;
+	background-color:white;
+	position:absolute;
+	left:900px;
+	top:25px;
+	display:none;
+}
+
+/*8 ВОПРОС*/									
+.bbboooxxxx {
+	background-color:white;
+	height:750px;
+	width:1000px;
+	position:absolute;
+	left:500px;
+	top:170px;
+	z-index:2;
+	border-radius:10px;
+	position:relative;
+	left:48px;
+	top:170px;
+	display:none;
+}
+.bbboooxvnutrenyiiii {
+	height:650px;
+	width:800px;
+	position:absolute;
+	top:50px;
+	left:100px;
+	display:table-cell;
+
+
+}
+.bbboooxxxx1 {
+	height:42px;
+	position:relative;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-width:3px;
+
+}
+.bbboooxxxx2 {
+	height:150px;
+	position:relative;
+	vertical-align:middle;
+	overflow-x:hidden;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.bbboooxxxx3 {
+	height: 458px;
+	position:relative;
+	border-width:3px;
+}
+.bbboooxImageeee {
+	height:310px;
+	position:relative;
+
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.aaaannswerssss {
+	height:148px;
+	position:relative;
+	border-width:3px;
+	
+	
+}
+.aaaannssss {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */
+	
+	
+
+}
+.aaaannssss1 {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */	
+}
+.ttaaaableeee { 
+width: 100%; /* Ширина таблицы */
+border: 4px double #9e7533; /* Рамка вокруг таблицы */
+border-collapse: collapse; /* Отображать только одинарные линии */
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}
+.texBtn1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+}
+.texBtn2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tac {
+	text-align: center;
+	padding-top:4px;
+}
+.textt {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tp {
+	position:absolute;
+	left:50px;
+	top:50px;
+
+}
+.iiimmmmgggg {
+	height:310px;
+	width:350px;
+	position:relative;
+	left:200px;
+}
+.aaaannssssw1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaannssssw2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaannssssw3 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaannssssw4 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}	
+.alert8 {
+	height:100px;
+	width:250px;
+	background-color:white;
+	position:absolute;
+	left:900px;
+	top:25px;
+	display:none;
+}
+
+/*9 ВОПРОС*/									
+.bbbboooxxxx {
+	background-color:white;
+	height:750px;
+	width:1000px;
+	position:absolute;
+	left:500px;
+	top:170px;
+	z-index:2;
+	border-radius:10px;
+	position:relative;
+	left:48px;
+	top:170px;
+	display:none;
+}
+.bbbboooxvnutrenyiiii {
+	height:650px;
+	width:800px;
+	position:absolute;
+	top:50px;
+	left:100px;
+	display:table-cell;
+
+
+}
+.bbbboooxxxx1 {
+	height:42px;
+	position:relative;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-width:3px;
+
+}
+.bbbboooxxxx2 {
+	height:150px;
+	position:relative;
+	vertical-align:middle;
+	overflow-x:hidden;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.bbbboooxxxx3 {
+	height: 458px;
+	position:relative;
+	border-width:3px;
+}
+.bbbboooxImageeee {
+	height:310px;
+	position:relative;
+
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.aaaannnswerssss {
+	height:148px;
+	position:relative;
+	border-width:3px;
+	
+	
+}
+.aaaannnssss {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */
+	
+	
+
+}
+.aaaannnssss1 {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */	
+}
+.tttaaaableeee { 
+width: 100%; /* Ширина таблицы */
+border: 4px double #9e7533; /* Рамка вокруг таблицы */
+border-collapse: collapse; /* Отображать только одинарные линии */
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}
+.texBtn1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+}
+.texBtn2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tac {
+	text-align: center;
+	padding-top:4px;
+}
+.textt {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tp {
+	position:absolute;
+	left:50px;
+	top:50px;
+
+}
+.iiiimmmmgggg {
+	height:310px;
+	width:350px;
+	position:relative;
+	left:200px;
+}
+.aaaannnssssw1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaannnssssw2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaannnssssw3 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaannnssssw4 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}	
+.alert9 {
+	height:100px;
+	width:250px;
+	background-color:white;
+	position:absolute;
+	left:900px;
+	top:25px;
+	display:none;
+}
+
+/*10 ВОПРОС*/									
+.bbbbooooxxxx {
+	background-color:white;
+	height:750px;
+	width:1000px;
+	position:absolute;
+	left:500px;
+	top:170px;
+	z-index:2;
+	border-radius:10px;
+	position:relative;
+	left:48px;
+	top:170px;
+	display:none;
+}
+.bbbbooooxvnutrenyiiii {
+	height:650px;
+	width:800px;
+	position:absolute;
+	top:50px;
+	left:100px;
+	display:table-cell;
+
+
+}
+.bbbbooooxxxx1 {
+	height:42px;
+	position:relative;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-width:3px;
+
+}
+.bbbbooooxxxx2 {
+	height:150px;
+	position:relative;
+	vertical-align:middle;
+	overflow-x:hidden;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.bbbbooooxxxx3 {
+	height: 458px;
+	position:relative;
+	border-width:3px;
+}
+.bbbbooooxImageeee {
+	height:310px;
+	position:relative;
+
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.aaaannnnswerssss {
+	height:148px;
+	position:relative;
+	border-width:3px;
+	
+	
+}
+.aaaannnnssss {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */
+	
+	
+
+}
+.aaaannnnssss1 {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */	
+}
+.ttttaaaableeee { 
+width: 100%; /* Ширина таблицы */
+border: 4px double #9e7533; /* Рамка вокруг таблицы */
+border-collapse: collapse; /* Отображать только одинарные линии */
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}
+.texBtn1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+}
+.texBtn2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tac {
+	text-align: center;
+	padding-top:4px;
+}
+.textt {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tp {
+	position:absolute;
+	left:50px;
+	top:50px;
+
+}
+.iiii_mmmmgggg {
+	height:310px;
+	width:350px;
+	position:relative;
+	left:200px;
+}
+.aaaannnnssssw1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaannnnssssw2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaannnnssssw3 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaannnnssssw4 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}	
+.alert10 {
+	height:100px;
+	width:250px;
+	background-color:white;
+	position:absolute;
+	left:900px;
+	top:25px;
+	display:none;
+}
+
+/*11 ВОПРОС*/									
+.bbbb_ooooxxxx {
+	background-color:white;
+	height:750px;
+	width:1000px;
+	position:absolute;
+	left:500px;
+	top:170px;
+	z-index:2;
+	border-radius:10px;
+	position:relative;
+	left:48px;
+	top:170px;
+	display:none;
+}
+.bbbb_ooooxvnutrenyiiii {
+	height:650px;
+	width:800px;
+	position:absolute;
+	top:50px;
+	left:100px;
+	display:table-cell;
+
+
+}
+.bbbb_ooooxxxx1 {
+	height:42px;
+	position:relative;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-width:3px;
+
+}
+.bbbb_ooooxxxx2 {
+	height:150px;
+	position:relative;
+	vertical-align:middle;
+	overflow-x:hidden;
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.bbbb_ooooxxxx3 {
+	height: 458px;
+	position:relative;
+	border-width:3px;
+}
+.bbbb_ooooxImageeee {
+	height:310px;
+	position:relative;
+
+	border-top:1px solid #9e7533;
+	border-left:1px solid #9e7533;
+	border-right:1px solid #9e7533;
+	border-width:3px;
+	
+}
+.aaaa_nnnnswerssss {
+	height:148px;
+	position:relative;
+	border-width:3px;
+	
+	
+}
+.aaaa_nnnnssss {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */
+	
+	
+
+}
+.aaaa_nnnnssss1 {
+	height:74px;
+	width:400px;
+	position:relative;
+	left:13px;
+	border: 4px double #9e7533; /* Рамка вокруг таблицы */
+	border-collapse: collapse; /* Отображать только одинарные линии */	
+}
+.tttt_aaaableeee { 
+width: 100%; /* Ширина таблицы */
+border: 4px double #9e7533; /* Рамка вокруг таблицы */
+border-collapse: collapse; /* Отображать только одинарные линии */
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}
+.texBtn1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+}
+.texBtn2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tac {
+	text-align: center;
+	padding-top:4px;
+}
+.textt {
+	font-family: 'Yeseva One', cursive;
+	font-size:25px;
+}
+.tp {
+	position:absolute;
+	left:50px;
+	top:50px;
+
+}
+.iiii__mmmmgggg {
+	height:310px;
+	width:350px;
+	position:relative;
+	left:200px;
+}
+.aaaa_nnnnssssw1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaa_nnnnssssw2 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaa_nnnnssssw3 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}
+.aaaa_nnnnssssw4 {
+	font-family: 'Yeseva One', cursive;
+	font-size:19px;
+	padding-left:10px;
+}	
+
+
+.scoreBlock {
+	height:400px;
+	width:400px;
+	position:relative;
+	left:840px;
+	top:180px;
+	background-color:gray;
+	border-radius:15px;
+	
+}
+.TEx {
+	text-align: center;
+}
